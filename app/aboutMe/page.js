@@ -14,13 +14,13 @@ export default function AboutMe() {
             <h1 className="text-3xl font-bold">About Me</h1>
             <p className="mt-4 p-5">
               Hello, I am Guido Asbun, and welcome to my portfolio page. I am a
-              Junior at the California State University Fullerton's Computer
-              Science Program. I have a passion for technologies and problem
-              solving. Through my Computer Science journey I was able to intern
-              at two companies, Snap Chat, and Axios media. And I built multiple
-              projects that show my passion for technology and problem solving.
-              In my website, you will be able to know all about me in a simple
-              to navigate and visually appealing way.
+              Junior at the California State University Fullerton&apos;s
+              Computer Science Program. I have a passion for technologies and
+              problem solving. Through my Computer Science journey I was able to
+              intern at two companies, Snap Chat, and Axios media. And I built
+              multiple projects that show my passion for technology and problem
+              solving. In my website, you will be able to know all about me in a
+              simple to navigate and visually appealing way.
             </p>
             <div className="mt-6">
               <ActionButton
