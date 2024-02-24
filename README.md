@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Guido Asbun Portfolio
 
-## Getting Started
+## CWID: 874148943
 
-First, run the development server:
+## Email: guido@asbun.io, guido.asbun@csu.fullerton.edu
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Link to deployed application: https://www.guido-asbun.com
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![QR-code](images/qrcode.png)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Languages used to build portfolio project:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- JavaScript
+- CSS
+- JSX
+- Node JS
 
-## Learn More
+## Frameworks and Libraries Used
 
-To learn more about Next.js, take a look at the following resources:
+- NEXT JS
+  - Main framework I used to build the project
+  - https://nextjs.org/
+- Tailwind CSS
+  - Framework used for styling
+  - https://tailwindcss.com/
+- Material Tailwind
+  - Template library used for component structure
+  - https://www.material-tailwind.com/
+- React-Icons
+  - Icon library used for pre made icons
+  - https://react-icons.github.io/react-icons/
+- Adobe Stock Images
+  - Image library used for generic images
+  - https://stock.adobe.com/
+- ESLint
+  - Code analysis tool for identifying problematic patterns in code
+  - https://eslint.org/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Amazon Web Services Route 53
+  - Domain name system service I used to obtain URL http://www.guido-asbun.com
+  - https://aws.amazon.com/route53/
+- Vercel
+  - Cloud platform as a service I used to deploy the site
+  - https://vercel.com/
 
-## Deploy on Vercel
+## Tools used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Figma
+  - Web interface design I used to wire-frame
+  - https://www.figma.com
+- VS Code
+  - Ide I used to write the code
+  - https://code.visualstudio.com/

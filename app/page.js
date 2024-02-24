@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import codingImage from "@/assets/images/coding1.jpeg";
 
