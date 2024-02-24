@@ -7,12 +7,12 @@ import ActionButton from "@/components/action-button/action-button";
 
 export default function AboutMe() {
   return (
-    <main>
+    <main className="mx-auto max-w-screen-xl px-4 py-2">
+      <h1 className="text-3xl font-bold p-4">About Me</h1>
       <div className="container mx-auto px-4 py-8">
         <div className="md:flex md:items-center md:justify-between">
           <div className="md:w-2/3">
-            <h1 className="text-3xl font-bold">About Me</h1>
-            <p className="mt-4 p-5">
+            <p className="mt-4 p-5 block font-sans text-base antialiased font-light leading-relaxed text-inherit">
               Hello, I am Guido Asbun, and welcome to my portfolio page. I am a
               Junior at the California State University Fullerton&apos;s
               Computer Science Program. I have a passion for technologies and
@@ -35,7 +35,9 @@ export default function AboutMe() {
             <Image
               src={portfolioImage} // Replace with your image path
               alt="Guido Asbun"
-              className="h-full w-full rounded-lg object-cover object-center"
+              height={200}
+              width={200}
+              className="h-95 w-full rounded-lg object-cover object-center"
             />
           </div>
         </div>
