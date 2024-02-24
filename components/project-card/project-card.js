@@ -36,18 +36,20 @@ export default function ProjectCard({ projectItems }) {
           </p>
 
           <div className="inline-flex flex-wrap items-center gap-3 mt-8 group">
-            <Link href={github}>
-              <span className=" p-3 ">
-                <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
-                  <p className="pr-4 block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
-                    GitHub
-                  </p>
-                  {React.createElement(FaGithubSquare, {
-                    className: "h-6 text-gray-900 w-6",
-                  })}
-                </div>
-              </span>
-            </Link>
+            {github ? (
+              <Link href={github}>
+                <span className=" p-3 ">
+                  <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
+                    <p className="pr-4 block font-sans text-base antialiased font-light leading-relaxed text-gray-700">
+                      GitHub
+                    </p>
+                    {React.createElement(FaGithubSquare, {
+                      className: "h-6 text-gray-900 w-6",
+                    })}
+                  </div>
+                </span>
+              </Link>
+            ) : null}
 
             {live ? (
               <Link href={live}>
@@ -63,6 +65,7 @@ export default function ProjectCard({ projectItems }) {
                 </span>
               </Link>
             ) : null}
+
             <div className="relative mx-4 mt-4 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">
               <Image
                 src={image}
