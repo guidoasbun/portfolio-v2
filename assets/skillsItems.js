@@ -8,7 +8,7 @@ const skillsItems = [
     title: "Java",
     description: " ",
     icon: FaJava,
-    link: "#",
+    link: "/projects/java-projects",
   },
   {
     title: "JavaScript",
