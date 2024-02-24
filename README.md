@@ -6,7 +6,7 @@
 
 ## Link to deployed application: https://www.guido-asbun.com
 
-![QR-code](images/qrcode.png)
+![QR-code](assets/images/qrcode.png)
 
 ## Languages used to build portfolio project:
 
