@@ -7,7 +7,7 @@ import { MenuItem, Typography } from "@material-tailwind/react";
 export default function ActionButton({ title, description, icon, link }) {
   return (
     <Link href={link}>
-      <MenuItem className="flex items-center gap-3 rounded-lg">
+      <MenuItem className="flex items-center gap-3 rounded-lg bg-blue-gray-50 hover:bg-blue-gray-200">
         <div className="flex items-center justify-center rounded-lg !bg-blue-gray-50 p-2 ">
           {" "}
           {React.createElement(icon, {
