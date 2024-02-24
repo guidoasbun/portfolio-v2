@@ -1,6 +1,7 @@
 import { SiWebpack, SiAdobe } from "react-icons/si";
 import { FaJava, FaLaptopCode, FaGithubSquare } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
+import { IoPhonePortraitOutline } from "react-icons/io5";
 
 const projectMenuItems = [
   {
@@ -28,10 +29,10 @@ const projectMenuItems = [
     link: "/projects/art-projects",
   },
   {
-    title: "Other",
-    description: "Other projects",
-    icon: FaLaptopCode,
-    link: "/projects/other-projects",
+    title: "Mobile Applications",
+    description: "Mobile projects",
+    icon: IoPhonePortraitOutline,
+    link: "/projects/mobile-projects",
   },
   {
     title: "GitHub",
