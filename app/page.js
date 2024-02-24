@@ -12,6 +12,7 @@ export default function Home() {
               src={codingImage}
               alt="coding image"
               className="h-96 w-full object-cover object-center"
+              priority={true}
             />
           </div>
         </div>
