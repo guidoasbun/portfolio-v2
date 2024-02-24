@@ -7,37 +7,37 @@ const projectMenuItems = [
     title: "Web Apps",
     description: "Web application development projects",
     icon: SiWebpack,
-    link: "/",
+    link: "/projects/web-projects",
   },
   {
     title: "Java",
     description: "Java development projects",
     icon: FaJava,
-    link: "/",
+    link: "/projects/java-projects",
   },
   {
     title: "C++",
     description: "C++ development projects",
     icon: TbBrandCpp,
-    link: "/",
+    link: "/projects/cpp-projects",
   },
   {
     title: "Art",
     description: "Art and design projects",
     icon: SiAdobe,
-    link: "/",
+    link: "/projects/art-projects",
   },
   {
     title: "Other",
     description: "Other projects",
     icon: FaLaptopCode,
-    link: "/",
+    link: "/projects/other-projects",
   },
   {
     title: "GitHub",
     description: "All My Projects on GitHub",
     icon: FaGithubSquare,
-    link: "/",
+    link: "https://github.com/guidoasbun",
   },
 ];
 

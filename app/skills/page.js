@@ -7,7 +7,7 @@ export default function Skills() {
   const renderItems = skillsItems.map(
     ({ title, icon, link, description }, key) => (
       <div className="flex flex-col md:flex-row items-center p-2" key={key}>
-        <div className="flex-grow mt-6">
+        <div className="flex-grow">
           <ActionButton
             title={title}
             icon={icon}
